@@ -52,9 +52,9 @@ namespace ArraysAndLists
              * display the numbers in your "odds" list
              */
             Console.WriteLine("\nOdds:");
-            foreach (int i in odds)
+            for (int i = 0; i < odds.Count; i++)
             {
-                Console.Write($"{i} ");
+                Console.Write($"{odds[i]} ");
             }
         }
     }
